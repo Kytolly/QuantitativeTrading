@@ -1,0 +1,1284 @@
+nohup: ignoring input
+train_file 文件夹已存在!
+数据读取成功!
+加载数据缓存
+数据缓存成功!
+加载数据缓存
+数据缓存成功!
+{'n_steps': 5, 'ent_coef': 0.01, 'learning_rate': 0.0007}
+EPISODE|STEPS|TERMINAL_REASON|CASH           |TOT_ASSETS     |TERMINAL_REWARD|GAINLOSS_PCT|RETREAT_PROPORTION
+   1| 499|update         |￥13,938        |￥726,768       |-62.91998%|-27.32323%|-35.60%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+EPISODE|STEPS|TERMINAL_REASON|CASH           |TOT_ASSETS     |TERMINAL_REWARD|GAINLOSS_PCT|RETREAT_PROPORTION
+   1| 486|Last Date      |￥6,619         |￥1,991,881     |99.18805% |99.18805% |0.00%     
+Eval num_timesteps=500, episode_reward=186.56 +/- 0.00
+Episode length: 487.00 +/- 0.00
+New best mean reward!
+   1| 999|update         |￥30,466        |￥742,101       |-60.02791%|-25.78992%|-34.24%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+   3| 486|Last Date      |￥10,087        |￥2,121,193     |112.11926%|112.11926%|0.00%     
+Eval num_timesteps=1000, episode_reward=195.99 +/- 0.00
+Episode length: 487.00 +/- 0.00
+New best mean reward!
+   1|1499|update         |￥48,958        |￥1,090,886     |-33.86811%|9.08865%  |-42.96%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+   5| 486|Last Date      |￥13,754        |￥2,046,751     |103.58295%|104.67510%|-1.09%    
+Eval num_timesteps=1500, episode_reward=219.50 +/- 0.00
+Episode length: 487.00 +/- 0.00
+New best mean reward!
+   1|1999|update         |￥69,934        |￥1,370,673     |2.31545%  |37.06732% |-34.75%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+   7| 486|Last Date      |￥10,817        |￥2,063,494     |104.54311%|106.34943%|-1.81%    
+Eval num_timesteps=2000, episode_reward=227.85 +/- 0.00
+Episode length: 487.00 +/- 0.00
+New best mean reward!
+   1|2206|Last Date      |￥26,673        |￥1,655,526     |36.42538% |65.55262% |-29.13%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+   9| 486|Last Date      |￥3,565         |￥1,831,136     |83.11365% |83.11365% |0.00%     
+Eval num_timesteps=2500, episode_reward=155.47 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   2| 499|update         |￥41,629        |￥1,460,435     |46.04354% |46.04354% |0.00%     
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  11| 486|Last Date      |￥1,485         |￥1,671,951     |66.19319% |67.19515% |-1.00%    
+Eval num_timesteps=3000, episode_reward=141.23 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   2| 999|update         |￥24,218        |￥1,977,432     |83.08629% |97.74319% |-14.66%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  13| 486|Last Date      |￥14,457        |￥1,665,280     |66.01686% |66.52799% |-0.51%    
+Eval num_timesteps=3500, episode_reward=139.39 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   2|1480|Last Date      |￥40,743        |￥2,392,009     |111.85126%|139.20086%|-27.35%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  15| 486|Last Date      |￥11,217        |￥1,635,833     |62.56770% |63.58325% |-1.02%    
+Eval num_timesteps=4000, episode_reward=151.40 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   3| 499|update         |￥43,193        |￥1,497,907     |41.60074% |49.79068% |-8.19%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  17| 486|Last Date      |￥16,442        |￥1,709,619     |70.15620% |70.96191% |-0.81%    
+Eval num_timesteps=4500, episode_reward=167.40 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   3| 999|update         |￥17,296        |￥1,874,494     |65.81276% |87.44939% |-21.64%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  19| 486|Last Date      |￥16,469        |￥1,831,597     |83.15965% |83.15965% |0.00%     
+Eval num_timesteps=5000, episode_reward=169.69 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   3|1448|Last Date      |￥38,504        |￥2,491,385     |125.96973%|149.13846%|-23.17%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  21| 486|Last Date      |￥21,850        |￥1,875,880     |87.58804% |87.58804% |0.00%     
+Eval num_timesteps=5500, episode_reward=177.72 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   4| 499|update         |￥63,621        |￥1,176,989     |10.78226% |17.69887% |-6.92%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  23| 486|Last Date      |￥34,330        |￥1,817,420     |81.74203% |81.74203% |0.00%     
+Eval num_timesteps=6000, episode_reward=167.84 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   4| 999|update         |￥19,898        |￥1,140,711     |4.28542%  |14.07110% |-9.79%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  25| 486|Last Date      |￥22,301        |￥1,825,566     |82.55663% |82.55663% |0.00%     
+Eval num_timesteps=6500, episode_reward=175.98 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   4|1499|update         |￥54,399        |￥1,821,752     |26.03230% |82.17523% |-56.14%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  27| 486|Last Date      |￥29,446        |￥2,105,087     |110.50872%|110.50872%|0.00%     
+Eval num_timesteps=7000, episode_reward=229.53 +/- 0.00
+Episode length: 487.00 +/- 0.00
+New best mean reward!
+   4|1999|update         |￥50,745        |￥3,033,492     |176.37786%|203.34921%|-26.97%   
+   4|2107|Last Date      |￥38,960        |￥2,539,767     |115.11940%|153.97674%|-38.86%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  29| 486|Last Date      |￥35,406        |￥1,789,616     |75.60537% |78.96164% |-3.36%    
+Eval num_timesteps=7500, episode_reward=187.55 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   5| 499|update         |￥34,746        |￥1,723,659     |21.68365% |72.36586% |-50.68%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  31| 486|Last Date      |￥11,573        |￥1,832,498     |78.16001% |83.24978% |-5.09%    
+Eval num_timesteps=8000, episode_reward=192.77 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   5| 999|update         |￥13,482        |￥2,095,559     |69.51462% |109.55592%|-40.04%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  33| 486|Last Date      |￥6,615         |￥1,798,792     |71.36864% |79.87919% |-8.51%    
+Eval num_timesteps=8500, episode_reward=198.92 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   5|1314|Last Date      |￥24,916        |￥2,224,357     |86.07966% |122.43575%|-36.36%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  35| 486|Last Date      |￥39,469        |￥1,803,972     |71.30283% |80.39717% |-9.09%    
+Eval num_timesteps=9000, episode_reward=205.67 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   6| 499|update         |￥12,225        |￥1,410,005     |-19.51235%|41.00047% |-60.51%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  37| 486|Last Date      |￥13,263        |￥1,890,221     |81.66167% |89.02213% |-7.36%    
+Eval num_timesteps=9500, episode_reward=221.92 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   6| 999|update         |￥34,591        |￥2,018,157     |58.33413% |101.81566%|-43.48%   
+   6|1347|Last Date      |￥81,949        |￥2,513,561     |121.74833%|151.35607%|-29.61%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  39| 486|Last Date      |￥20,882        |￥1,896,232     |89.26078% |89.62323% |-0.36%    
+Eval num_timesteps=10000, episode_reward=204.15 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   7| 499|update         |￥34,417        |￥814,569       |-47.69511%|-18.54314%|-29.15%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  41| 486|Last Date      |￥46,653        |￥1,946,084     |94.60840% |94.60840% |0.00%     
+Eval num_timesteps=10500, episode_reward=203.81 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   7| 999|update         |￥38,259        |￥659,567       |-76.67674%|-34.04332%|-42.63%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  43| 486|Last Date      |￥13,686        |￥1,949,111     |94.53391% |94.91105% |-0.38%    
+Eval num_timesteps=11000, episode_reward=208.76 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   7|1499|update         |￥47,239        |￥1,551,883     |4.14236%  |55.18832% |-51.05%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  45| 486|Last Date      |￥3,791         |￥2,068,878     |106.71771%|106.88784%|-0.17%    
+Eval num_timesteps=11500, episode_reward=231.16 +/- 0.00
+Episode length: 487.00 +/- 0.00
+New best mean reward!
+   7|1999|update         |￥31,510        |￥2,028,539     |66.84404% |102.85392%|-36.01%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  47| 486|Last Date      |￥39,310        |￥2,261,249     |126.11856%|126.12492%|-0.01%    
+Eval num_timesteps=12000, episode_reward=276.48 +/- 0.00
+Episode length: 487.00 +/- 0.00
+New best mean reward!
+   7|2346|Last Date      |￥62,420        |￥2,763,022     |160.48703%|176.30219%|-15.82%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  49| 486|Last Date      |￥11,427        |￥2,354,251     |135.42508%|135.42508%|0.00%     
+Eval num_timesteps=12500, episode_reward=291.09 +/- 0.00
+Episode length: 487.00 +/- 0.00
+New best mean reward!
+   8| 499|update         |￥38,969        |￥935,735       |-21.34256%|-6.42648% |-14.92%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  51| 486|Last Date      |￥50,069        |￥2,229,692     |122.96915%|122.96915%|0.00%     
+Eval num_timesteps=13000, episode_reward=266.01 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   8| 999|update         |￥41,988        |￥2,642,301     |141.61676%|164.23009%|-22.61%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  53| 486|Last Date      |￥17,444        |￥2,238,890     |123.88897%|123.88897%|0.00%     
+Eval num_timesteps=13500, episode_reward=262.62 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   8|1499|update         |￥20,383        |￥2,394,480     |109.57655%|139.44796%|-29.87%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  55| 486|Last Date      |￥71,754        |￥2,142,888     |112.21968%|114.28881%|-2.07%    
+Eval num_timesteps=14000, episode_reward=258.68 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   8|1843|Last Date      |￥76,803        |￥2,335,371     |101.93455%|133.53711%|-31.60%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  57| 486|Last Date      |￥47,348        |￥2,066,715     |104.65944%|106.67150%|-2.01%    
+Eval num_timesteps=14500, episode_reward=238.38 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   9| 499|update         |￥40,822        |￥851,652       |-40.77897%|-14.83482%|-25.94%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  59| 486|Last Date      |￥56,810        |￥2,104,498     |110.44977%|110.44977%|0.00%     
+Eval num_timesteps=15000, episode_reward=236.97 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   9| 999|update         |￥5,687         |￥839,378       |-43.07363%|-16.06221%|-27.01%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  61| 486|Last Date      |￥34,125        |￥1,996,590     |97.67342% |99.65896% |-1.99%    
+Eval num_timesteps=15500, episode_reward=227.03 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   9|1499|update         |￥48,968        |￥2,154,476     |83.67232% |115.44762%|-31.78%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  63| 486|Last Date      |￥38,391        |￥1,821,837     |78.97430% |82.18367% |-3.21%    
+Eval num_timesteps=16000, episode_reward=189.91 +/- 0.00
+Episode length: 487.00 +/- 0.00
+   9|1999|update         |￥43,504        |￥1,948,686     |56.57666% |94.86861% |-38.29%   
+   9|2264|Last Date      |￥41,561        |￥1,776,994     |33.97050% |77.69935% |-43.73%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  65| 486|Last Date      |￥31,160        |￥1,841,134     |80.85909% |84.11341% |-3.25%    
+Eval num_timesteps=16500, episode_reward=195.83 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  10| 499|update         |￥43,390        |￥946,535       |-25.72266%|-5.34651% |-20.38%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  67| 486|Last Date      |￥8,875         |￥1,862,682     |81.69945% |86.26820% |-4.57%    
+Eval num_timesteps=17000, episode_reward=198.76 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  10| 999|update         |￥32,462        |￥1,978,425     |65.80605% |97.84253% |-32.04%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  69| 486|Last Date      |￥35,847        |￥1,807,445     |75.28868% |80.74450% |-5.46%    
+Eval num_timesteps=17500, episode_reward=189.27 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  10|1499|update         |￥34,279        |￥1,959,810     |63.30511% |95.98105% |-32.68%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  71| 486|Last Date      |￥5,099         |￥1,837,709     |77.03236% |83.77085% |-6.74%    
+Eval num_timesteps=18000, episode_reward=200.38 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  10|1819|Last Date      |￥42,706        |￥1,713,068     |30.15470% |71.30681% |-41.15%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  73| 486|Last Date      |￥45,545        |￥1,670,626     |60.72526% |67.06259% |-6.34%    
+Eval num_timesteps=18500, episode_reward=161.92 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  11| 499|update         |￥55,241        |￥2,832,352     |160.64791%|183.23517%|-22.59%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  75| 486|Last Date      |￥44,897        |￥1,737,888     |65.65453% |73.78883% |-8.13%    
+Eval num_timesteps=19000, episode_reward=188.26 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  11| 999|update         |￥34,117        |￥2,006,274     |55.46217% |100.62745%|-45.17%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  77| 486|Last Date      |￥5,081         |￥1,809,410     |77.42375% |80.94103% |-3.52%    
+Eval num_timesteps=19500, episode_reward=193.88 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  11|1336|Last Date      |￥21,919        |￥2,174,135     |76.83606% |117.41346%|-40.58%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  79| 486|Last Date      |￥13,454        |￥1,783,942     |74.87078% |78.39418% |-3.52%    
+Eval num_timesteps=20000, episode_reward=189.74 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  12| 499|update         |￥64,408        |￥1,738,044     |31.86297% |73.80442% |-41.94%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  81| 486|Last Date      |￥56,226        |￥1,688,628     |63.77079% |68.86283% |-5.09%    
+Eval num_timesteps=20500, episode_reward=179.69 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  12| 999|update         |￥30,915        |￥2,089,449     |78.74203% |108.94494%|-30.20%   
+  12|1291|Last Date      |￥54,049        |￥1,982,870     |64.52388% |98.28702% |-33.76%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  83| 486|Last Date      |￥36,240        |￥1,676,773     |60.74365% |67.67730% |-6.93%    
+Eval num_timesteps=21000, episode_reward=184.13 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  13| 499|update         |￥45,306        |￥915,805       |-25.83443%|-8.41945% |-17.41%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  85| 486|Last Date      |￥50,151        |￥1,806,415     |72.70594% |80.64147% |-7.94%    
+Eval num_timesteps=21500, episode_reward=221.87 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  13| 999|update         |￥47,358        |￥1,239,818     |23.76438% |23.98176% |-0.22%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  87| 486|Last Date      |￥15,011        |￥1,867,025     |77.65134% |86.70248% |-9.05%    
+Eval num_timesteps=22000, episode_reward=239.83 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  13|1499|update         |￥25,351        |￥1,768,848     |36.65102% |76.88476% |-40.23%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  89| 486|Last Date      |￥8,035         |￥1,898,987     |83.65680% |89.89874% |-6.24%    
+Eval num_timesteps=22500, episode_reward=234.46 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  13|1999|update         |￥19,442        |￥2,276,810     |104.61036%|127.68096%|-23.07%   
+  13|2033|Last Date      |￥35,332        |￥2,144,563     |86.91730% |114.45629%|-27.54%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  91| 486|Last Date      |￥32,831        |￥1,946,969     |87.71238% |94.69690% |-6.98%    
+Eval num_timesteps=23000, episode_reward=246.50 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  14| 499|update         |￥19,368        |￥1,836,744     |50.47658% |83.67438% |-33.20%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  93| 486|Last Date      |￥34,267        |￥1,880,950     |82.99742% |88.09502% |-5.10%    
+Eval num_timesteps=23500, episode_reward=227.02 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  14| 999|update         |￥20,082        |￥2,214,341     |101.96954%|121.43415%|-19.46%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  95| 486|Last Date      |￥30,963        |￥1,857,753     |81.26840% |85.77531% |-4.51%    
+Eval num_timesteps=24000, episode_reward=216.10 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  14|1266|Last Date      |￥36,893        |￥1,848,050     |52.01839% |84.80499% |-32.79%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  97| 486|Last Date      |￥32,446        |￥1,920,017     |87.66462% |92.00166% |-4.34%    
+Eval num_timesteps=24500, episode_reward=235.98 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  15| 499|update         |￥58,024        |￥924,103       |-30.53374%|-7.58971% |-22.94%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+  99| 486|Last Date      |￥28,735        |￥2,080,003     |106.03307%|108.00033%|-1.97%    
+Eval num_timesteps=25000, episode_reward=261.15 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  15| 999|update         |￥42,697        |￥1,701,672     |56.87670% |70.16716% |-13.29%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 101| 486|Last Date      |￥56,175        |￥1,986,623     |95.57260% |98.66227% |-3.09%    
+Eval num_timesteps=25500, episode_reward=248.14 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  15|1499|update         |￥37,675        |￥2,126,338     |81.50384% |112.63385%|-31.13%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 103| 486|Last Date      |￥39,561        |￥2,020,119     |99.67790% |102.01191%|-2.33%    
+Eval num_timesteps=26000, episode_reward=249.42 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  15|1999|update         |￥51,776        |￥4,159,298     |314.26134%|315.92978%|-1.67%    
+  15|2251|Last Date      |￥41,594        |￥2,720,698     |132.48615%|172.06978%|-39.58%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 105| 486|Last Date      |￥36,997        |￥2,014,971     |98.64094% |101.49711%|-2.86%    
+Eval num_timesteps=26500, episode_reward=249.66 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  16| 499|update         |￥46,122        |￥1,198,362     |5.06235%  |19.83618% |-14.77%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 107| 486|Last Date      |￥35,856        |￥1,995,783     |96.55710% |99.57830% |-3.02%    
+Eval num_timesteps=27000, episode_reward=243.24 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  16| 999|update         |￥46,450        |￥1,575,057     |22.77614% |57.50572% |-34.73%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 109| 486|Last Date      |￥14,302        |￥1,947,476     |90.99386% |94.74757% |-3.75%    
+Eval num_timesteps=27500, episode_reward=234.14 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  16|1499|update         |￥18,842        |￥3,005,908     |187.27939%|200.59079%|-13.31%   
+  16|1612|Last Date      |￥37,650        |￥2,149,325     |76.91771% |114.93247%|-38.01%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 111| 486|Last Date      |￥39,655        |￥1,593,755     |54.01097% |59.37548% |-5.36%    
+Eval num_timesteps=28000, episode_reward=151.19 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  17| 499|update         |￥55,339        |￥1,514,589     |42.80941% |51.45886% |-8.65%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 113| 486|Last Date      |￥46,071        |￥1,653,072     |60.70310% |65.30724% |-4.60%    
+Eval num_timesteps=28500, episode_reward=166.26 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  17| 999|update         |￥54,343        |￥2,287,642     |107.14615%|128.76419%|-21.62%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 115| 486|Last Date      |￥15,994        |￥1,491,535     |41.86734% |49.15354% |-7.29%    
+Eval num_timesteps=29000, episode_reward=123.36 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  17|1499|update         |￥40,983        |￥3,644,400     |261.68155%|264.43998%|-2.76%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 117| 486|Last Date      |￥32,547        |￥1,885,518     |85.00300% |88.55177% |-3.55%    
+Eval num_timesteps=29500, episode_reward=223.74 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  17|1736|Last Date      |￥42,797        |￥2,400,382     |102.83634%|140.03819%|-37.20%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 119| 486|Last Date      |￥23,936        |￥1,844,597     |80.14892% |84.45972% |-4.31%    
+Eval num_timesteps=30000, episode_reward=213.08 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  18| 499|update         |￥44,697        |￥724,149       |-57.41517%|-27.58506%|-29.83%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 121| 486|Last Date      |￥23,297        |￥1,922,219     |89.67397% |92.22187% |-2.55%    
+Eval num_timesteps=30500, episode_reward=214.78 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  18| 999|update         |￥44,914        |￥1,204,235     |14.54807% |20.42351% |-5.88%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 123| 486|Last Date      |￥49,169        |￥1,825,731     |78.64783% |82.57308% |-3.93%    
+Eval num_timesteps=31000, episode_reward=205.30 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  18|1499|update         |￥52,099        |￥1,342,654     |-6.15588% |34.26542% |-40.42%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 125| 486|Last Date      |￥2,708         |￥1,715,529     |63.06698% |71.55289% |-8.49%    
+Eval num_timesteps=31500, episode_reward=182.48 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  18|1999|update         |￥48,153        |￥2,682,523     |157.61447%|168.25225%|-10.64%   
+  18|2188|Last Date      |￥44,713        |￥1,813,631     |41.78014% |81.36309% |-39.58%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 127| 486|Last Date      |￥52,093        |￥2,144,641     |107.32560%|114.46405%|-7.14%    
+Eval num_timesteps=32000, episode_reward=269.52 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  19| 499|update         |￥37,024        |￥1,391,663     |33.29351% |39.16633% |-5.87%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 129| 486|Last Date      |￥31,276        |￥2,213,114     |116.13675%|121.31136%|-5.17%    
+Eval num_timesteps=32500, episode_reward=270.14 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  19| 999|update         |￥28,210        |￥1,995,246     |68.78404% |99.52456% |-30.74%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 131| 486|Last Date      |￥42,404        |￥2,233,845     |119.95087%|123.38450%|-3.43%    
+Eval num_timesteps=33000, episode_reward=264.09 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  19|1499|update         |￥44,662        |￥2,410,094     |109.72918%|141.00940%|-31.28%   
+  19|1530|Last Date      |￥33,309        |￥2,194,913     |82.07553% |119.49128%|-37.42%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 133| 486|Last Date      |￥14,081        |￥1,961,666     |92.69874% |96.16664% |-3.47%    
+Eval num_timesteps=33500, episode_reward=208.57 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  20| 499|update         |￥47,731        |￥1,299,767     |14.39797% |29.97674% |-15.58%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 135| 486|Last Date      |￥32,007        |￥2,187,191     |117.14338%|118.71909%|-1.58%    
+Eval num_timesteps=34000, episode_reward=265.17 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  20| 999|update         |￥41,383        |￥1,910,777     |62.69612% |91.07766% |-28.38%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 137| 486|Last Date      |￥30,857        |￥2,254,748     |123.93784%|125.47481%|-1.54%    
+Eval num_timesteps=34500, episode_reward=284.14 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  20|1499|update         |￥33,070        |￥2,736,927     |151.18762%|173.69270%|-22.51%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 139| 486|Last Date      |￥8,463         |￥2,032,871     |95.59957% |103.28711%|-7.69%    
+Eval num_timesteps=35000, episode_reward=254.16 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  20|1581|Last Date      |￥34,745        |￥2,206,604     |83.13946% |120.66041%|-37.52%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 141| 486|Last Date      |￥55,831        |￥1,953,644     |87.20890% |95.36444% |-8.16%    
+Eval num_timesteps=35500, episode_reward=247.18 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  21| 499|update         |￥41,054        |￥756,146       |-76.65850%|-24.38538%|-52.27%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 143| 486|Last Date      |￥33,612        |￥1,831,102     |70.58821% |83.11024% |-12.52%   
+Eval num_timesteps=36000, episode_reward=232.10 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  21| 999|update         |￥32,713        |￥1,571,002     |49.13784% |57.10023% |-7.96%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 145| 486|Last Date      |￥26,170        |￥2,033,110     |91.40761% |103.31096%|-11.90%   
+Eval num_timesteps=36500, episode_reward=281.15 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  21|1499|update         |￥45,946        |￥3,374,576     |223.60579%|237.45759%|-13.85%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 147| 486|Last Date      |￥9,186         |￥1,891,010     |77.00420% |89.10099% |-12.10%   
+Eval num_timesteps=37000, episode_reward=248.56 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  21|1999|update         |￥49,117        |￥3,589,025     |250.52530%|258.90252%|-8.38%    
+  21|2357|Last Date      |￥65,163        |￥3,411,114     |204.32411%|241.11141%|-36.79%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 149| 486|Last Date      |￥55,941        |￥1,799,567     |71.47775% |79.95665% |-8.48%    
+Eval num_timesteps=37500, episode_reward=211.52 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  22| 499|update         |￥45,140        |￥812,395       |-51.03834%|-18.76049%|-32.28%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 151| 486|Last Date      |￥14,439        |￥1,822,068     |72.04463% |82.20684% |-10.16%   
+Eval num_timesteps=38000, episode_reward=226.09 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  22| 999|update         |￥9,241         |￥817,895       |-50.02990%|-18.21052%|-31.82%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 153| 486|Last Date      |￥9,387         |￥1,830,460     |72.53431% |83.04596% |-10.51%   
+Eval num_timesteps=38500, episode_reward=233.19 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  22|1499|update         |￥35,994        |￥1,446,720     |12.11130% |44.67203% |-32.56%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 155| 486|Last Date      |￥58,604        |￥1,789,433     |67.96224% |78.94332% |-10.98%   
+Eval num_timesteps=39000, episode_reward=227.95 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  22|1999|update         |￥40,658        |￥1,727,232     |53.23860% |72.72320% |-19.48%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 157| 486|Last Date      |￥12,144        |￥1,894,391     |84.93669% |89.43911% |-4.50%    
+Eval num_timesteps=39500, episode_reward=227.57 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  22|2286|Last Date      |￥55,754        |￥1,245,415     |-17.40317%|24.54148% |-41.94%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 159| 486|Last Date      |￥16,991        |￥2,153,338     |112.67554%|115.33382%|-2.66%    
+Eval num_timesteps=40000, episode_reward=271.32 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  23| 499|update         |￥11,152        |￥705,618       |-66.19868%|-29.43818%|-36.76%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 161| 486|Last Date      |￥16,700        |￥2,137,234     |111.75591%|113.72338%|-1.97%    
+Eval num_timesteps=40500, episode_reward=251.64 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  23| 999|update         |￥6,669         |￥705,710       |-66.18133%|-29.42903%|-36.75%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 163| 486|Last Date      |￥43,814        |￥2,049,708     |103.48637%|104.97084%|-1.48%    
+Eval num_timesteps=41000, episode_reward=226.31 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  23|1499|update         |￥37,626        |￥627,503       |-111.20075%|-37.24966%|-73.95%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 165| 486|Last Date      |￥24,907        |￥2,014,303     |100.87585%|101.43029%|-0.55%    
+Eval num_timesteps=41500, episode_reward=216.11 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  23|1999|update         |￥50,015        |￥1,525,575     |15.88716% |52.55750% |-36.67%   
+  23|2294|Last Date      |￥30,768        |￥1,283,270     |-18.40196%|28.32696% |-46.73%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 167| 486|Last Date      |￥14,011        |￥2,079,447     |106.96533%|107.94468%|-0.98%    
+Eval num_timesteps=42000, episode_reward=244.90 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  24| 499|update         |￥13,310        |￥2,135,797     |96.66421% |113.57975%|-16.92%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 169| 486|Last Date      |￥60,124        |￥2,062,586     |104.32834%|106.25857%|-1.93%    
+Eval num_timesteps=42500, episode_reward=242.77 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  24| 999|update         |￥60,766        |￥2,209,402     |106.88792%|120.94018%|-14.05%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 171| 486|Last Date      |￥36,607        |￥2,049,911     |102.56649%|104.99113%|-2.42%    
+Eval num_timesteps=43000, episode_reward=254.01 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  24|1344|Last Date      |￥39,832        |￥2,519,500     |125.71812%|151.94998%|-26.23%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 173| 486|Last Date      |￥6,189         |￥2,205,166     |118.60517%|120.51659%|-1.91%    
+Eval num_timesteps=43500, episode_reward=288.18 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  25| 499|update         |￥28,952        |￥1,598,733     |54.47596% |59.87325% |-5.40%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 175| 486|Last Date      |￥54,707        |￥2,178,979     |115.52872%|117.89785%|-2.37%    
+Eval num_timesteps=44000, episode_reward=289.40 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  25| 999|update         |￥54,767        |￥1,952,945     |72.24378% |95.29454% |-23.05%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 177| 486|Last Date      |￥13,056        |￥2,215,868     |119.21635%|121.58679%|-2.37%    
+Eval num_timesteps=44500, episode_reward=297.18 +/- 0.00
+Episode length: 487.00 +/- 0.00
+New best mean reward!
+  25|1488|Last Date      |￥45,866        |￥2,825,547     |155.63428%|182.55469%|-26.92%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 179| 486|Last Date      |￥24,518        |￥2,228,740     |122.35471%|122.87401%|-0.52%    
+Eval num_timesteps=45000, episode_reward=276.54 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  26| 499|update         |￥46,860        |￥1,352,235     |27.52891% |35.22345% |-7.69%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 181| 486|Last Date      |￥19,242        |￥2,274,454     |126.90957%|127.44540%|-0.54%    
+Eval num_timesteps=45500, episode_reward=278.80 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  26| 999|update         |￥63,466        |￥1,795,868     |61.73844% |79.58677% |-17.85%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 183| 486|Last Date      |￥14,882        |￥2,560,398     |155.80522%|156.03982%|-0.23%    
+Eval num_timesteps=46000, episode_reward=358.73 +/- 0.00
+Episode length: 487.00 +/- 0.00
+New best mean reward!
+  26|1444|Last Date      |￥72,207        |￥2,023,216     |73.71502% |102.32159%|-28.61%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 185| 486|Last Date      |￥26,323        |￥2,348,841     |134.88411%|134.88411%|0.00%     
+Eval num_timesteps=46500, episode_reward=285.14 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  27| 499|update         |￥41,739        |￥1,329,788     |29.05087% |32.97885% |-3.93%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 187| 486|Last Date      |￥24,335        |￥2,250,323     |125.03233%|125.03233%|0.00%     
+Eval num_timesteps=47000, episode_reward=263.82 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  27| 999|update         |￥36,469        |￥2,137,148     |95.35303% |113.71477%|-18.36%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 189| 486|Last Date      |￥47,892        |￥2,303,695     |130.25433%|130.36948%|-0.12%    
+Eval num_timesteps=47500, episode_reward=287.20 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  27|1499|update         |￥52,854        |￥2,815,266     |156.62989%|181.52659%|-24.90%   
+  27|1507|Last Date      |￥25,349        |￥2,620,769     |131.99164%|162.07695%|-30.09%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 191| 486|Last Date      |￥9,436         |￥2,175,861     |117.29510%|117.58609%|-0.29%    
+Eval num_timesteps=48000, episode_reward=259.06 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  28| 499|update         |￥35,446        |￥852,071       |-38.57653%|-14.79290%|-23.78%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 193| 486|Last Date      |￥38,563        |￥2,170,429     |116.47361%|117.04295%|-0.57%    
+Eval num_timesteps=48500, episode_reward=262.58 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  28| 999|update         |￥39,286        |￥1,174,241     |5.17406%  |17.42412% |-12.25%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 195| 486|Last Date      |￥39,305        |￥2,386,508     |138.65082%|138.65082%|0.00%     
+Eval num_timesteps=49000, episode_reward=301.87 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  28|1499|update         |￥18,957        |￥1,827,539     |55.71086% |82.75390% |-27.04%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 197| 486|Last Date      |￥70,705        |￥2,475,909     |147.59087%|147.59087%|0.00%     
+Eval num_timesteps=49500, episode_reward=313.79 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  28|1999|update         |￥37,448        |￥3,197,657     |217.94543%|219.76566%|-1.82%    
+  28|2244|Last Date      |￥43,784        |￥2,463,012     |117.39539%|146.30120%|-28.91%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 199| 486|Last Date      |￥4,389         |￥2,373,048     |137.30478%|137.30478%|0.00%     
+Eval num_timesteps=50000, episode_reward=288.22 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  29| 499|update         |￥46,621        |￥804,641       |-42.41727%|-19.53591%|-22.88%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 201| 486|Last Date      |￥35,593        |￥2,177,720     |117.77203%|117.77203%|0.00%     
+Eval num_timesteps=50500, episode_reward=251.11 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  29| 999|update         |￥27,413        |￥1,083,341     |8.33406%  |8.33406%  |0.00%     
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 203| 486|Last Date      |￥37,864        |￥2,202,884     |120.28843%|120.28843%|0.00%     
+Eval num_timesteps=51000, episode_reward=242.13 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  29|1499|update         |￥65,975        |￥1,662,799     |42.76722% |66.27991% |-23.51%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 205| 486|Last Date      |￥36,901        |￥2,269,518     |126.95184%|126.95184%|0.00%     
+Eval num_timesteps=51500, episode_reward=258.38 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  29|1999|update         |￥62,756        |￥2,290,727     |110.14016%|129.07266%|-18.93%   
+  29|2006|Last Date      |￥63,227        |￥2,121,136     |87.17936% |112.11358%|-24.93%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 207| 486|Last Date      |￥42,026        |￥2,252,325     |125.23245%|125.23245%|0.00%     
+Eval num_timesteps=52000, episode_reward=254.01 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  30| 499|update         |￥57,772        |￥923,435       |-29.69480%|-7.65652% |-22.04%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 209| 486|Last Date      |￥22,623        |￥2,220,917     |122.09172%|122.09172%|0.00%     
+Eval num_timesteps=52500, episode_reward=261.61 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  30| 999|update         |￥5,613         |￥1,186,293     |18.62928% |18.62928% |0.00%     
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 211| 486|Last Date      |￥23,954        |￥2,288,563     |128.85625%|128.85625%|0.00%     
+Eval num_timesteps=53000, episode_reward=273.90 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  30|1499|update         |￥46,179        |￥2,025,270     |76.97239% |102.52698%|-25.55%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 213| 486|Last Date      |￥3,103         |￥2,115,824     |111.58237%|111.58237%|0.00%     
+Eval num_timesteps=53500, episode_reward=245.55 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  30|1999|update         |￥8,153         |￥3,192,855     |219.28545%|219.28545%|0.00%     
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 215| 486|Last Date      |￥45,368        |￥2,001,492     |99.67003% |100.14915%|-0.48%    
+Eval num_timesteps=54000, episode_reward=229.26 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  30|2288|Last Date      |￥37,722        |￥2,940,452     |171.39532%|194.04521%|-22.65%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 217| 486|Last Date      |￥85,184        |￥1,932,646     |92.36654% |93.26460% |-0.90%    
+Eval num_timesteps=54500, episode_reward=220.75 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  31| 499|update         |￥77,161        |￥873,073       |-29.54436%|-12.69272%|-16.85%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 219| 486|Last Date      |￥47,667        |￥1,940,422     |93.35008% |94.04216% |-0.69%    
+Eval num_timesteps=55000, episode_reward=217.98 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  31| 999|update         |￥40,550        |￥1,822,316     |62.27877% |82.23160% |-19.95%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 221| 486|Last Date      |￥10,023        |￥1,944,999     |93.85718% |94.49990% |-0.64%    
+Eval num_timesteps=55500, episode_reward=217.81 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  31|1499|update         |￥68,985        |￥2,621,659     |162.16594%|162.16594%|0.00%     
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 223| 486|Last Date      |￥79,953        |￥1,948,826     |94.88264% |94.88264% |0.00%     
+Eval num_timesteps=56000, episode_reward=216.77 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  31|1826|Last Date      |￥40,733        |￥2,949,480     |179.13643%|194.94802%|-15.81%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 225| 486|Last Date      |￥76,183        |￥1,953,084     |95.07998% |95.30844% |-0.23%    
+Eval num_timesteps=56500, episode_reward=218.32 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  32| 499|update         |￥63,558        |￥2,001,961     |73.43529% |100.19609%|-26.76%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 227| 486|Last Date      |￥13,954        |￥2,074,037     |107.40365%|107.40365%|0.00%     
+Eval num_timesteps=57000, episode_reward=244.00 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  32| 999|update         |￥58,053        |￥2,880,689     |185.49247%|188.06886%|-2.58%    
+  32|1233|Last Date      |￥69,564        |￥2,653,956     |150.80338%|165.39558%|-14.59%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 229| 486|Last Date      |￥64,057        |￥1,894,506     |88.39992% |89.45058% |-1.05%    
+Eval num_timesteps=57500, episode_reward=212.38 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  33| 499|update         |￥30,411        |￥2,179,182     |91.85099% |117.91816%|-26.07%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 231| 486|Last Date      |￥18,110        |￥2,001,840     |100.18398%|100.18398%|0.00%     
+Eval num_timesteps=58000, episode_reward=232.15 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  33| 999|update         |￥31,802        |￥2,139,535     |86.54127% |113.95351%|-27.41%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 233| 486|Last Date      |￥16,033        |￥2,073,827     |107.21381%|107.38267%|-0.17%    
+Eval num_timesteps=58500, episode_reward=246.80 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  33|1331|Last Date      |￥39,381        |￥2,922,502     |177.94937%|192.25022%|-14.30%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 235| 486|Last Date      |￥16,112        |￥2,079,400     |107.16225%|107.94000%|-0.78%    
+Eval num_timesteps=59000, episode_reward=247.71 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  34| 499|update         |￥76,413        |￥896,679       |-37.68652%|-10.33211%|-27.35%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 237| 486|Last Date      |￥51,805        |￥2,053,153     |104.87449%|105.31526%|-0.44%    
+Eval num_timesteps=59500, episode_reward=237.72 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  34| 999|update         |￥2,907         |￥984,987       |-21.70137%|-1.50133% |-20.20%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 239| 486|Last Date      |￥13,266        |￥2,036,491     |103.19171%|103.64912%|-0.46%    
+Eval num_timesteps=60000, episode_reward=236.55 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  34|1499|update         |￥57,919        |￥1,607,318     |10.92995% |60.73185% |-49.80%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 241| 486|Last Date      |￥16,394        |￥2,027,462     |101.57973%|102.74619%|-1.17%    
+Eval num_timesteps=60500, episode_reward=236.64 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  34|1999|update         |￥64,275        |￥2,874,164     |176.83006%|187.41637%|-10.59%   
+  34|2096|Last Date      |￥70,684        |￥2,770,511     |162.30897%|177.05112%|-14.74%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 243| 486|Last Date      |￥29,757        |￥2,105,449     |109.03590%|110.54489%|-1.51%    
+Eval num_timesteps=61000, episode_reward=263.08 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  35| 499|update         |￥35,657        |￥1,033,117     |-17.20673%|3.31167%  |-20.52%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 245| 486|Last Date      |￥76,558        |￥1,993,821     |98.95457% |99.38209% |-0.43%    
+Eval num_timesteps=61500, episode_reward=225.24 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  35| 999|update         |￥54,735        |￥858,793       |-48.05050%|-14.12071%|-33.93%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 247| 486|Last Date      |￥55,983        |￥2,023,570     |102.35698%|102.35698%|0.00%     
+Eval num_timesteps=62000, episode_reward=228.79 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  35|1499|update         |￥37,133        |￥2,353,256     |104.33752%|135.32561%|-30.99%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 249| 486|Last Date      |￥62,004        |￥1,848,918     |83.59718% |84.89181% |-1.29%    
+Eval num_timesteps=62500, episode_reward=194.56 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  35|1999|update         |￥25,395        |￥1,545,585     |-0.11548% |54.55848% |-54.67%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 251| 486|Last Date      |￥30,996        |￥2,037,505     |103.13364%|103.75050%|-0.62%    
+Eval num_timesteps=63000, episode_reward=244.08 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  35|2331|Last Date      |￥44,936        |￥2,541,213     |128.64522%|154.12127%|-25.48%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 253| 486|Last Date      |￥81,500        |￥2,105,687     |110.56873%|110.56873%|0.00%     
+Eval num_timesteps=63500, episode_reward=244.92 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  36| 499|update         |￥41,310        |￥787,794       |-46.59733%|-21.22059%|-25.38%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 255| 486|Last Date      |￥51,605        |￥2,016,148     |96.55580% |101.61479%|-5.06%    
+Eval num_timesteps=64000, episode_reward=251.65 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  36| 999|update         |￥54,662        |￥867,549       |-31.06706%|-13.24507%|-17.82%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 257| 486|Last Date      |￥82,890        |￥2,230,003     |119.26679%|123.00027%|-3.73%    
+Eval num_timesteps=64500, episode_reward=302.99 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  36|1499|update         |￥58,542        |￥1,456,594     |-2.23495% |45.65942% |-47.89%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 259| 486|Last Date      |￥44,441        |￥2,146,166     |106.98948%|114.61664%|-7.63%    
+Eval num_timesteps=65000, episode_reward=290.44 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  36|1999|update         |￥57,876        |￥2,796,609     |175.38347%|179.66087%|-4.28%    
+  36|2136|Last Date      |￥28,497        |￥2,599,627     |144.66062%|159.96274%|-15.30%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 261| 486|Last Date      |￥25,800        |￥2,293,619     |125.35024%|129.36190%|-4.01%    
+Eval num_timesteps=65500, episode_reward=304.95 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  37| 499|update         |￥34,484        |￥2,851,837     |185.18369%|185.18369%|0.00%     
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 263| 486|Last Date      |￥10,757        |￥2,342,300     |130.18515%|134.23004%|-4.04%    
+Eval num_timesteps=66000, episode_reward=321.97 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  37| 999|update         |￥55,391        |￥1,998,443     |63.54517% |99.84427% |-36.30%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 265| 486|Last Date      |￥64,862        |￥2,207,117     |116.96266%|120.71173%|-3.75%    
+Eval num_timesteps=66500, episode_reward=292.25 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  37|1378|Last Date      |￥68,512        |￥2,472,515     |126.06353%|147.25146%|-21.19%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 267| 486|Last Date      |￥34,365        |￥2,199,365     |116.42004%|119.93654%|-3.52%    
+Eval num_timesteps=67000, episode_reward=283.48 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  38| 499|update         |￥65,244        |￥903,551       |-22.86524%|-9.64488% |-13.22%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 269| 486|Last Date      |￥101,982       |￥2,191,630     |116.67645%|119.16303%|-2.49%    
+Eval num_timesteps=67500, episode_reward=281.47 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  38| 999|update         |￥73,828        |￥1,864,787     |49.46960% |86.47868% |-37.01%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 271| 486|Last Date      |￥37,583        |￥2,322,240     |132.22398%|132.22398%|0.00%     
+Eval num_timesteps=68000, episode_reward=305.52 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  38|1499|update         |￥83,607        |￥2,193,706     |93.47212% |119.37059%|-25.90%   
+  38|1830|Last Date      |￥52,307        |￥2,456,682     |128.65280%|145.66817%|-17.02%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 273| 486|Last Date      |￥55,880        |￥2,312,134     |131.21340%|131.21340%|0.00%     
+Eval num_timesteps=68500, episode_reward=301.25 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  39| 499|update         |￥76,425        |￥896,868       |-23.43605%|-10.31323%|-13.12%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 275| 486|Last Date      |￥61,643        |￥2,213,436     |119.24525%|121.34358%|-2.10%    
+Eval num_timesteps=69000, episode_reward=285.42 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  39| 999|update         |￥51,069        |￥1,550,221     |50.58535% |55.02211% |-4.44%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 277| 486|Last Date      |￥23,260        |￥2,195,617     |116.33032%|119.56172%|-3.23%    
+Eval num_timesteps=69500, episode_reward=288.60 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  39|1499|update         |￥37,311        |￥1,687,095     |32.07203% |68.70954% |-36.64%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 279| 486|Last Date      |￥68,465        |￥2,214,178     |118.39228%|121.41779%|-3.03%    
+Eval num_timesteps=70000, episode_reward=292.89 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  39|1908|Last Date      |￥41,862        |￥2,349,247     |121.24225%|134.92474%|-13.68%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 281| 486|Last Date      |￥77,251        |￥2,165,446     |112.95560%|116.54460%|-3.59%    
+Eval num_timesteps=70500, episode_reward=280.60 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  40| 499|update         |￥69,308        |￥1,171,599     |16.09628% |17.15991% |-1.06%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 283| 486|Last Date      |￥105,736       |￥2,294,264     |128.70184%|129.42641%|-0.72%    
+Eval num_timesteps=71000, episode_reward=299.66 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  40| 999|update         |￥62,859        |￥2,158,545     |96.85619% |115.85454%|-19.00%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 285| 486|Last Date      |￥14,349        |￥2,294,222     |126.81255%|129.42220%|-2.61%    
+Eval num_timesteps=71500, episode_reward=303.11 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  40|1499|update         |￥77,936        |￥3,060,710     |206.07102%|206.07102%|0.00%     
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 287| 486|Last Date      |￥92,450        |￥2,170,356     |113.71827%|117.03559%|-3.32%    
+Eval num_timesteps=72000, episode_reward=279.37 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  40|1770|Last Date      |￥61,814        |￥2,647,122     |147.10516%|164.71225%|-17.61%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 289| 486|Last Date      |￥17,787        |￥2,272,074     |122.93420%|127.20737%|-4.27%    
+Eval num_timesteps=72500, episode_reward=307.03 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  41| 499|update         |￥54,085        |￥2,402,927     |126.07940%|140.29266%|-14.21%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 291| 486|Last Date      |￥14,828        |￥2,236,489     |121.57800%|123.64893%|-2.07%    
+Eval num_timesteps=73000, episode_reward=286.78 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  41| 999|update         |￥78,512        |￥2,155,571     |92.51295% |115.55705%|-23.04%   
+  41|1336|Last Date      |￥35,967        |￥2,656,342     |149.66359%|165.63417%|-15.97%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 293| 486|Last Date      |￥71,804        |￥2,195,701     |117.61464%|119.57006%|-1.96%    
+Eval num_timesteps=73500, episode_reward=279.71 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  42| 499|update         |￥45,653        |￥901,138       |-28.78195%|-9.88624% |-18.90%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 295| 486|Last Date      |￥73,571        |￥2,216,382     |120.28585%|121.63819%|-1.35%    
+Eval num_timesteps=74000, episode_reward=282.05 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  42| 999|update         |￥57,308        |￥933,865       |-22.56369%|-6.61351% |-15.95%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 297| 486|Last Date      |￥78,112        |￥2,268,380     |126.17571%|126.83800%|-0.66%    
+Eval num_timesteps=74500, episode_reward=294.38 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  42|1499|update         |￥85,136        |￥1,598,147     |31.27990% |59.81466% |-28.53%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 299| 486|Last Date      |￥16,203        |￥2,255,768     |124.21961%|125.57678%|-1.36%    
+Eval num_timesteps=75000, episode_reward=288.75 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  42|1999|update         |￥22,721        |￥2,554,991     |143.27879%|155.49910%|-12.22%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 301| 486|Last Date      |￥92,677        |￥2,245,469     |123.67802%|124.54689%|-0.87%    
+Eval num_timesteps=75500, episode_reward=287.51 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  42|2031|Last Date      |￥35,936        |￥2,477,968     |132.93033%|147.79684%|-14.87%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 303| 486|Last Date      |￥97,523        |￥2,258,412     |124.94296%|125.84124%|-0.90%    
+Eval num_timesteps=76000, episode_reward=291.68 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  43| 499|update         |￥66,932        |￥791,733       |-47.15066%|-20.82673%|-26.32%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 305| 486|Last Date      |￥55,750        |￥2,295,532     |129.55317%|129.55317%|0.00%     
+Eval num_timesteps=76500, episode_reward=292.07 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  43| 999|update         |￥50,312        |￥1,046,689     |2.07040%  |4.66892%  |-2.60%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 307| 486|Last Date      |￥30,823        |￥2,354,403     |135.44034%|135.44034%|0.00%     
+Eval num_timesteps=77000, episode_reward=302.05 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  43|1499|update         |￥80,924        |￥1,421,576     |7.44860%  |42.15765% |-34.71%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 309| 486|Last Date      |￥27,485        |￥2,415,812     |141.58123%|141.58123%|0.00%     
+Eval num_timesteps=77500, episode_reward=322.86 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  43|1999|update         |￥89,354        |￥2,895,659     |186.56293%|189.56589%|-3.00%    
+  43|2208|Last Date      |￥70,683        |￥2,472,321     |127.65539%|147.23211%|-19.58%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 311| 486|Last Date      |￥31,253        |￥2,396,566     |139.65660%|139.65660%|0.00%     
+Eval num_timesteps=78000, episode_reward=318.08 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  44| 499|update         |￥32,607        |￥942,487       |-29.76508%|-5.75134% |-24.01%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 313| 486|Last Date      |￥17,203        |￥2,424,113     |142.41128%|142.41128%|0.00%     
+Eval num_timesteps=78500, episode_reward=327.75 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  44| 999|update         |￥51,076        |￥959,962       |-26.60869%|-4.00383% |-22.60%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 315| 486|Last Date      |￥11,104        |￥2,280,017     |128.00174%|128.00174%|0.00%     
+Eval num_timesteps=79000, episode_reward=284.37 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  44|1499|update         |￥91,283        |￥1,648,861     |37.85509% |64.88612% |-27.03%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 317| 486|Last Date      |￥93,666        |￥2,272,019     |127.20186%|127.20186%|0.00%     
+Eval num_timesteps=79500, episode_reward=293.43 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  44|1999|update         |￥66,879        |￥2,576,301     |143.98818%|157.63014%|-13.64%   
+  44|2086|Last Date      |￥86,441        |￥2,496,138     |133.28477%|149.61382%|-16.33%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 319| 486|Last Date      |￥60,463        |￥2,265,302     |126.53021%|126.53021%|0.00%     
+Eval num_timesteps=80000, episode_reward=293.65 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  45| 499|update         |￥57,375        |￥1,286,029     |17.41413% |28.60291% |-11.19%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 321| 486|Last Date      |￥70,299        |￥2,279,761     |127.97609%|127.97609%|0.00%     
+Eval num_timesteps=80500, episode_reward=298.84 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  45| 999|update         |￥71,932        |￥1,157,802     |-4.26370% |15.78023% |-20.04%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 323| 486|Last Date      |￥74,566        |￥2,308,816     |130.88160%|130.88160%|0.00%     
+Eval num_timesteps=81000, episode_reward=303.52 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  45|1499|update         |￥30,269        |￥2,405,935     |136.90419%|140.59354%|-3.69%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 325| 486|Last Date      |￥104,111       |￥2,212,448     |121.24475%|121.24475%|0.00%     
+Eval num_timesteps=81500, episode_reward=277.50 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  45|1999|update         |￥81,406        |￥2,325,157     |125.59273%|132.51568%|-6.92%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 327| 486|Last Date      |￥50,947        |￥2,394,367     |139.43668%|139.43668%|0.00%     
+Eval num_timesteps=82000, episode_reward=316.93 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  45|2370|Last Date      |￥96,452        |￥2,794,030     |157.78326%|179.40299%|-21.62%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 329| 486|Last Date      |￥26,845        |￥2,354,942     |135.49416%|135.49416%|0.00%     
+Eval num_timesteps=82500, episode_reward=309.05 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  46| 499|update         |￥5,461         |￥913,681       |-21.57603%|-8.63190% |-12.94%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 331| 486|Last Date      |￥38,913        |￥2,355,376     |135.53763%|135.53763%|0.00%     
+Eval num_timesteps=83000, episode_reward=317.23 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  46| 999|update         |￥63,533        |￥1,525,803     |51.80975% |52.58029% |-0.77%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 333| 486|Last Date      |￥106,882       |￥2,465,331     |144.36193%|146.53308%|-2.17%    
+Eval num_timesteps=83500, episode_reward=353.38 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  46|1499|update         |￥60,481        |￥1,526,549     |30.41397% |52.65487% |-22.24%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 335| 486|Last Date      |￥63,461        |￥2,356,377     |133.79016%|135.63774%|-1.85%    
+Eval num_timesteps=84000, episode_reward=327.66 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  46|1924|Last Date      |￥92,091        |￥1,991,085     |78.58421% |99.10854% |-20.52%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 337| 486|Last Date      |￥21,661        |￥2,446,579     |143.31195%|144.65787%|-1.35%    
+Eval num_timesteps=84500, episode_reward=345.72 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  47| 499|update         |￥68,732        |￥1,052,991     |-2.13411% |5.29911%  |-7.43%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 339| 486|Last Date      |￥121,385       |￥2,439,218     |142.37318%|143.92183%|-1.55%    
+Eval num_timesteps=85000, episode_reward=343.47 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  47| 999|update         |￥51,442        |￥2,009,932     |74.60515% |100.99316%|-26.39%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 341| 486|Last Date      |￥83,979        |￥2,460,488     |144.77418%|146.04877%|-1.27%    
+Eval num_timesteps=85500, episode_reward=347.96 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  47|1499|update         |￥49,894        |￥2,845,302     |177.76790%|184.53018%|-6.76%    
+  47|1754|Last Date      |￥60,783        |￥2,442,401     |122.46024%|144.24010%|-21.78%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 343| 486|Last Date      |￥47,390        |￥2,483,647     |146.60116%|148.36474%|-1.76%    
+Eval num_timesteps=86000, episode_reward=355.33 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  48| 499|update         |￥55,665        |￥821,358       |-44.19866%|-17.86417%|-26.33%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 345| 486|Last Date      |￥86,734        |￥2,447,956     |141.84130%|144.79563%|-2.95%    
+Eval num_timesteps=86500, episode_reward=352.04 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  48| 999|update         |￥41,942        |￥986,033       |-12.96197%|-1.39671% |-11.57%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 347| 486|Last Date      |￥118,743       |￥2,395,547     |135.84923%|139.55474%|-3.71%    
+Eval num_timesteps=87000, episode_reward=345.45 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  48|1499|update         |￥48,832        |￥1,594,519     |24.48668% |59.45187% |-34.97%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 349| 486|Last Date      |￥44,625        |￥2,456,571     |140.76378%|145.65713%|-4.89%    
+Eval num_timesteps=87500, episode_reward=366.02 +/- 0.00
+Episode length: 487.00 +/- 0.00
+New best mean reward!
+  48|1999|update         |￥62,135        |￥2,130,315     |93.73416% |113.03145%|-19.30%   
+  48|2039|Last Date      |￥63,026        |￥2,105,737     |90.34533% |110.57369%|-20.23%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 351| 486|Last Date      |￥24,178        |￥2,457,440     |140.95923%|145.74399%|-4.78%    
+Eval num_timesteps=88000, episode_reward=369.38 +/- 0.00
+Episode length: 487.00 +/- 0.00
+New best mean reward!
+  49| 499|update         |￥61,452        |￥863,188       |-40.07206%|-13.68118%|-26.39%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 353| 486|Last Date      |￥60,540        |￥2,465,978     |141.49875%|146.59782%|-5.10%    
+Eval num_timesteps=88500, episode_reward=372.93 +/- 0.00
+Episode length: 487.00 +/- 0.00
+New best mean reward!
+  49| 999|update         |￥54,178        |￥951,691       |-23.67460%|-4.83089% |-18.84%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 355| 486|Last Date      |￥72,239        |￥2,421,045     |136.15460%|142.10448%|-5.95%    
+Eval num_timesteps=89000, episode_reward=365.04 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  49|1499|update         |￥60,378        |￥1,822,554     |56.89382% |82.25543% |-25.36%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 357| 486|Last Date      |￥72,079        |￥2,352,122     |128.03307%|135.21223%|-7.18%    
+Eval num_timesteps=89500, episode_reward=350.66 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  49|1999|update         |￥79,507        |￥2,589,853     |155.12149%|158.98535%|-3.86%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 359| 486|Last Date      |￥63,202        |￥2,430,819     |137.20921%|143.08194%|-5.87%    
+Eval num_timesteps=90000, episode_reward=364.20 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  49|2267|Last Date      |￥30,674        |￥2,193,280     |98.63274% |119.32797%|-20.70%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 361| 486|Last Date      |￥119,505       |￥2,344,699     |131.12811%|134.46995%|-3.34%    
+Eval num_timesteps=90500, episode_reward=332.98 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  50| 499|update         |￥34,385        |￥907,708       |-31.22469%|-9.22924% |-22.00%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 363| 486|Last Date      |￥111,140       |￥2,440,641     |142.11023%|144.06411%|-1.95%    
+Eval num_timesteps=91000, episode_reward=347.67 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  50| 999|update         |￥64,304        |￥822,942       |-46.98567%|-17.70581%|-29.28%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 365| 486|Last Date      |￥122,543       |￥2,388,529     |135.47608%|138.85293%|-3.38%    
+Eval num_timesteps=91500, episode_reward=337.03 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  50|1499|update         |￥34,886        |￥1,679,645     |29.48227% |67.96453% |-38.48%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 367| 486|Last Date      |￥76,746        |￥2,383,628     |135.05120%|138.36280%|-3.31%    
+Eval num_timesteps=92000, episode_reward=335.26 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  50|1999|update         |￥48,723        |￥2,265,422     |109.51425%|126.54219%|-17.03%   
+  50|2321|Last Date      |￥63,413        |￥2,209,939     |98.40291% |120.99392%|-22.59%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 369| 486|Last Date      |￥63,355        |￥2,392,720     |135.77357%|139.27200%|-3.50%    
+Eval num_timesteps=92500, episode_reward=338.43 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  51| 499|update         |￥56,058        |￥3,061,986     |206.19863%|206.19863%|0.00%     
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 371| 486|Last Date      |￥116,632       |￥2,345,677     |130.39451%|134.56768%|-4.17%    
+Eval num_timesteps=93000, episode_reward=331.91 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  51| 999|update         |￥72,601        |￥2,068,987     |70.14995% |106.89874%|-36.75%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 373| 486|Last Date      |￥107,403       |￥2,405,651     |137.21159%|140.56509%|-3.35%    
+Eval num_timesteps=93500, episode_reward=342.84 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  51|1380|Last Date      |￥112,871       |￥2,612,077     |133.74871%|161.20768%|-27.46%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 375| 486|Last Date      |￥111,410       |￥2,433,831     |140.84964%|143.38305%|-2.53%    
+Eval num_timesteps=94000, episode_reward=346.95 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  52| 499|update         |￥23,665        |￥1,324,864     |26.19716% |32.48639% |-6.29%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 377| 486|Last Date      |￥30,864        |￥2,500,084     |147.88588%|150.00840%|-2.12%    
+Eval num_timesteps=94500, episode_reward=355.87 +/- 0.00
+Episode length: 487.00 +/- 0.00w
+  52| 999|update         |￥82,683        |￥2,341,631     |97.21052% |134.16308%|-36.95%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 379| 486|Last Date      |￥118,072       |￥2,461,632     |143.41417%|146.16321%|-2.75%    
+Eval num_timesteps=95000, episode_reward=352.57 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  52|1499|update         |￥57,690        |￥3,222,941     |204.16574%|222.29409%|-18.13%   
+  52|1511|Last Date      |￥62,364        |￥2,936,916     |168.29747%|193.69164%|-25.39%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 381| 486|Last Date      |￥34,571        |￥2,470,085     |143.23850%|147.00852%|-3.77%    
+Eval num_timesteps=95500, episode_reward=353.99 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  53| 499|update         |￥80,103        |￥767,410       |-47.30319%|-23.25905%|-24.04%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 383| 486|Last Date      |￥132,167       |￥2,470,451     |146.00973%|147.04512%|-1.04%    
+Eval num_timesteps=96000, episode_reward=351.23 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  53| 999|update         |￥39,972        |￥1,129,878     |-3.58746% |12.98782% |-16.58%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 385| 486|Last Date      |￥128,417       |￥2,493,549     |148.29581%|149.35490%|-1.06%    
+Eval num_timesteps=96500, episode_reward=355.88 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  53|1499|update         |￥54,829        |￥1,578,438     |28.11950% |57.84378% |-29.72%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 387| 486|Last Date      |￥112,136       |￥2,490,596     |147.86645%|149.05963%|-1.19%    
+Eval num_timesteps=97000, episode_reward=353.37 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  53|1988|Last Date      |￥77,685        |￥1,929,344     |72.51060% |92.93444% |-20.42%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 389| 486|Last Date      |￥35,589        |￥2,366,576     |135.24000%|136.65763%|-1.42%    
+Eval num_timesteps=97500, episode_reward=324.60 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  54| 499|update         |￥85,322        |￥1,071,361     |3.35143%  |7.13609%  |-3.78%    
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 391| 486|Last Date      |￥11,589        |￥2,357,344     |134.82364%|135.73444%|-0.91%    
+Eval num_timesteps=98000, episode_reward=319.68 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  54| 999|update         |￥61,976        |￥1,909,399     |59.53464% |90.93991% |-31.41%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 393| 486|Last Date      |￥126,743       |￥2,366,287     |135.42933%|136.62867%|-1.20%    
+Eval num_timesteps=98500, episode_reward=326.76 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  54|1499|update         |￥48,381        |￥2,473,880     |136.26155%|147.38798%|-11.13%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 395| 486|Last Date      |￥16,713        |￥2,335,901     |132.91226%|133.59009%|-0.68%    
+Eval num_timesteps=99000, episode_reward=315.92 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  54|1742|Last Date      |￥84,811        |￥2,141,893     |91.13634% |114.18931%|-23.05%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 397| 486|Last Date      |￥14,996        |￥2,348,922     |134.06048%|134.89218%|-0.83%    
+Eval num_timesteps=99500, episode_reward=318.30 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  55| 499|update         |￥29,956        |￥839,844       |-37.74365%|-16.01555%|-21.73%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 399| 486|Last Date      |￥38,488        |￥2,363,175     |135.80326%|136.31745%|-0.51%    
+Eval num_timesteps=100000, episode_reward=320.07 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  55| 999|update         |￥26,416        |￥942,949       |-17.82397%|-5.70506% |-12.12%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 401| 486|Last Date      |￥44,257        |￥2,318,533     |131.85328%|131.85328%|0.00%     
+Eval num_timesteps=100500, episode_reward=306.46 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  55|1499|update         |￥48,214        |￥1,349,509     |-14.00285%|34.95095% |-48.95%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 403| 486|Last Date      |￥7,531         |￥2,280,193     |128.01930%|128.01930%|0.00%     
+Eval num_timesteps=101000, episode_reward=295.67 +/- 0.00
+Episode length: 487.00 +/- 0.00
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 405| 486|Last Date      |￥47,207        |￥2,347,618     |134.76178%|134.76178%|0.00%     
+Eval num_timesteps=101500, episode_reward=309.07 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  56| 499|update         |￥56,445        |￥1,538,419     |9.81578%  |53.84193% |-44.03%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 407| 486|Last Date      |￥95,360        |￥2,302,424     |130.24244%|130.24244%|0.00%     
+Eval num_timesteps=102000, episode_reward=303.13 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  56| 999|update         |￥77,878        |￥2,232,949     |104.53851%|123.29489%|-18.76%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 409| 486|Last Date      |￥68,951        |￥2,445,647     |144.56475%|144.56475%|0.00%     
+Eval num_timesteps=102500, episode_reward=340.30 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  56|1294|Last Date      |￥54,177        |￥2,040,797     |78.33204% |104.07968%|-25.75%   
+C:\Python311\Lib\site-packages\stable_baselines3\common\evaluation.py:65: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+ 411| 486|Last Date      |￥74,877        |￥2,465,600     |145.61175%|146.55999%|-0.95%    
+Eval num_timesteps=103000, episode_reward=348.70 +/- 0.00
+Episode length: 487.00 +/- 0.00
+  57| 499|update         |￥15,829        |￥2,580,338     |158.03380%|158.03380%|0.00%     

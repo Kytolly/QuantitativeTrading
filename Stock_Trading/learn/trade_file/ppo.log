@@ -1,0 +1,28 @@
+nohup: ignoring input
+trade_file 文件夹已存在!
+数据读取成功!
+加载数据缓存
+数据缓存成功!
+{'n_steps': 256, 'ent_coef': 0.01, 'learning_rate': 5e-05, 'batch_size': 256}
+C:\Python311\Lib\site-packages\stable_baselines3\common\save_util.py:166: UserWarning: Could not deserialize object lr_schedule. Consider using `custom_objects` argument to replace this object.
+  warnings.warn(
+C:\Python311\Lib\site-packages\stable_baselines3\common\save_util.py:166: UserWarning: Could not deserialize object clip_range. Consider using `custom_objects` argument to replace this object.
+  warnings.warn(
+Traceback (most recent call last):
+  File "D:\Desktop\myfile\draft\QuantitativeTrading\Stock_Trading\learn\trader.py", line 132, in <module>
+    start_trade()
+  File "D:\Desktop\myfile\draft\QuantitativeTrading\Stock_Trading\learn\trader.py", line 129, in start_trade
+    Trader(model_name = options.model).trade()
+  File "D:\Desktop\myfile\draft\QuantitativeTrading\Stock_Trading\learn\trader.py", line 46, in trade
+    model = self.get_model(agent)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Desktop\myfile\draft\QuantitativeTrading\Stock_Trading\learn\trader.py", line 86, in get_model
+    model.load(model_dir)
+  File "C:\Python311\Lib\site-packages\stable_baselines3\common\base_class.py", line 688, in load
+    model._setup_model()
+  File "C:\Python311\Lib\site-packages\stable_baselines3\ppo\ppo.py", line 158, in _setup_model
+    self.clip_range = get_schedule_fn(self.clip_range)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\stable_baselines3\common\utils.py", line 88, in get_schedule_fn
+    assert callable(value_schedule)
+AssertionError

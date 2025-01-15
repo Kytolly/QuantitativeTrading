@@ -1,0 +1,2 @@
+class KytollyPolicy(object):
+    pass

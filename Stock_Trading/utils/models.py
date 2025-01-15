@@ -21,15 +21,16 @@ NOISE = {
     "normal": NormalActionNoise,
     "ornstein_uhlenbeck": OrnsteinUhlenbeckActionNoise
 }
+
 class Zero_Model():
     def __init__(self) -> None:
        pass
-    
+
     def predict(self,obs):
-        #
         action = np.array([0]*50,dtype=np.float32)
         return action,None
-    
+
+
 class DRL_Agent():
     """强化学习交易智能体
 
@@ -39,8 +40,8 @@ class DRL_Agent():
 
     @staticmethod
     def DRL_prediction(
-        model: Any = Zero_Model(), environment: Any = None
-        ) -> pd.DataFrame:
+            model: Any = Zero_Model(), environment: Any = None
+    ) -> pd.DataFrame:
         """回测函数"""
         test_env, test_obs = environment.get_sb_env()
 
@@ -50,7 +51,8 @@ class DRL_Agent():
 
         len_environment = len(environment.df.index.unique())
         for i in range(len_environment):
-            # 这个model你可以自己实现和修改，但是必须要有类似上面Zero_Model中那样的predict方法。
+            # 这个model你可以自己实现和修改，
+            # 但是必须要有类似上面Zero_Model中那样的predict方法。
             action, _states = model.predict(test_obs)
             test_obs, _, dones, _ = test_env.step(action)
             if i == (len_environment - 2):
@@ -65,20 +67,20 @@ class DRL_Agent():
         self.env = env
 
     def get_model(
-        self,
-        model_name: str,
-        policy: str = "MlpPolicy",
-        policy_kwargs: dict = None,
-        model_kwargs: dict = None,
-        verbose: int = 1
+            self,
+            model_name: str,
+            policy: str = "MlpPolicy",
+            policy_kwargs: dict = None,
+            model_kwargs: dict = None,
+            verbose: int = 1
     ) -> Any:
         """根据超参数生成模型"""
         if model_name not in MODELS:
             raise NotImplementedError("NotImplementedError")
-        
+
         if model_kwargs is None:
             model_kwargs = MODEL_KWARGS[model_name]
-        
+
         if "action_noise" in model_kwargs:
             n_actions = self.env.action_space.shape[-1]
             model_kwargs["action_noise"] = NOISE[model_kwargs["action_noise"]](
@@ -94,15 +96,15 @@ class DRL_Agent():
             policy_kwargs=policy_kwargs,
             **model_kwargs
         )
-        
         return model
 
     def train_model(
-        self, model: Any, tb_log_name: str, total_timesteps: int = 5000
-        ) -> Any:
+            self, model: Any, tb_log_name: str, total_timesteps: int = 5000
+    ) -> Any:
         """训练模型"""
         model = model.learn(total_timesteps=total_timesteps, tb_log_name=tb_log_name)
         return model
+
 
 if __name__ == "__main__":
     from pull_data import Pull_data
@@ -111,30 +113,31 @@ if __name__ == "__main__":
     import time
 
     # 拉取数据
-    df = Pull_data(config.SSE_50[:2], save_data=False).pull_data()
+    # df = Pull_data(config.SSE_50[:2], save_data=False).pull_data()
+    df = Pull_data(config.SSE_50[:2]).pull_data()
     df = FeatureEngineer().preprocess_data(df)
-    df = split_data(df, '2009-01-01','2019-01-01')
+    df = split_data(df, '2009-01-01', '2019-01-01')
     print(df.head())
 
     # 处理超参数
-    stock_dimension = len(df.tic.unique()) # 2
-    state_space = 1 + 2*stock_dimension + \
-        len(config.TECHNICAL_INDICATORS_LIST)*stock_dimension # 23
+    stock_dimension = len(df.tic.unique())  # 2
+    state_space = 1 + 2 * stock_dimension + \
+                  len(config.TECHNICAL_INDICATORS_LIST) * stock_dimension  # 23
     print("stock_dimension: {}, state_space: {}".format(stock_dimension, state_space))
     env_kwargs = {
-        "stock_dim": stock_dimension, 
-        "hmax": 100, 
-        "initial_amount": 1e6, 
+        "stock_dim": stock_dimension,
+        "hmax": 100,
+        "initial_amount": 1e6,
         "buy_cost_pct": 0.001,
         "sell_cost_pct": 0.001,
         "reward_scaling": 1e-4,
-        "state_space": state_space, 
-        "action_space": stock_dimension, 
+        "state_space": state_space,
+        "action_space": stock_dimension,
         "tech_indicator_list": config.TECHNICAL_INDICATORS_LIST
     }
 
     # 测试环境
-    e_train_gym = StockLearningEnv(df = df, **env_kwargs)
+    e_train_gym = StockLearningEnv(df=df, **env_kwargs)
 
     ### 测试一次
     # observation = e_train_gym.reset()
@@ -146,15 +149,15 @@ if __name__ == "__main__":
     # print("reward: {}, done: {}".format(reward, done))
 
     ### 多次测试
-    observation = e_train_gym.reset()       #初始化环境，observation为环境状态
+    observation = e_train_gym.reset()  # 初始化环境，observation为环境状态
     count = 0
     for t in range(10):
-        action = e_train_gym.action_space.sample()  #随机采样动作
-        observation, reward, done, info = e_train_gym.step(action)  #与环境交互，获得下一个state的值
-        if done:             
+        action = e_train_gym.action_space.sample()  # 随机采样动作
+        observation, reward, done, info = e_train_gym.step(action)  # 与环境交互，获得下一个state的值
+        if done:
             break
-        count+=1
-        time.sleep(0.2)      #每次等待 0.2s
+        count += 1
+        time.sleep(0.2)  # 每次等待 0.2s
     print("observation: ", observation)
     print("reward: {}, done: {}".format(reward, done))
 
@@ -162,7 +165,7 @@ if __name__ == "__main__":
     env_train, _ = e_train_gym.get_sb_env()
     print(type(env_train))
 
-    agent = DRL_Agent(env= env_train)
+    agent = DRL_Agent(env=env_train)
     SAC_PARAMS = {
         "batch_size": 128,
         "buffer_size": 1000000,
@@ -174,6 +177,6 @@ if __name__ == "__main__":
 
     trained_sac = agent.train_model(
         model=model_sac,
-        tb_log_name='sac', 
-        total_timesteps= 50000
+        tb_log_name='sac',
+        total_timesteps=50000
     )
