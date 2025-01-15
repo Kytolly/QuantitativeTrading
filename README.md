@@ -1,6 +1,5 @@
-# 课程设计-强化学习量化交易策略
+# QuantitativeTrading(UESTC-互联网与计算智能)
 
-# Course Project - Reinforcement Learning for Quantitative Trading Strategy
 
 ## Project Overview
 
